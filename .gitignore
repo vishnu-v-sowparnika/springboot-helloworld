@@ -1,0 +1,96 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Java compiled class files
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+release.properties
+*.jar
+*.exe
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+*.iws
+*.ipr
+
+# Gradle
+.gradle/
+build/
+gradle/
+
+# IntelliJ
+out/
+.gradle/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Vim
+.vim/
+Session.vim
+.viminfo
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+logs/
+*.log
+.env
+.env.local
+.env.*.local
+
+# Spring Boot
+application-*.properties
+application-*.yml
+
+# Database
+*.db
+*.sqlite
+*.h2.db
+
+# Build output
+dist/
+build/
+out/
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
+
+# Node modules (if applicable)
+node_modules/
+npm-debug.log
+
+# Temporary files
+*.tmp
+.temp/
+temp/
