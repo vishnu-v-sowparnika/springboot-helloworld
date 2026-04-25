@@ -1,0 +1,15 @@
+version: 0.0
+os: linux
+files:
+  - source: target/springboot-helloworld-1.0.0.jar
+    destination: /home/ubuntu/myapp.jar
+
+hooks:
+  ApplicationStop:
+    - location: scripts/stop.sh
+      timeout: 20
+      runas: ubuntu
+  ApplicationStart:
+    - location: scripts/start.sh
+      timeout: 20
+      runas: ubuntu
