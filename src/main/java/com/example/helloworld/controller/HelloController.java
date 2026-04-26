@@ -18,6 +18,7 @@ import java.time.LocalDateTime;
  */
 // Added a sample code for a github
 //added for other trigger
+//added
 @RestController
 @RequestMapping("/api")
 public class HelloController {
