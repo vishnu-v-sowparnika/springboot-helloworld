@@ -16,6 +16,7 @@ import java.time.LocalDateTime;
  * - Query parameters
  * - Request mapping
  */
+// Added a sample code for a github
 @RestController
 @RequestMapping("/api")
 public class HelloController {
