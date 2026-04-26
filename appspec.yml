@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: target/springboot-helloworld-1.0.0.jar
+  - source: springboot-helloworld.jar
     destination: /home/ubuntu/myapp.jar
 
 hooks:
